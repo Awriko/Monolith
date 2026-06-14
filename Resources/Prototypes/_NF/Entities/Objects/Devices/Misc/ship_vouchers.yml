@@ -61,18 +61,24 @@
     - Janitor
 
 - type: entity
-  parent: ShipVoucherFrontierJanitor
+  parent: ShipVoucherFrontierService
   id: ShipVoucherFrontierMailCarrier
-  name: mail carrier ship voucher
-  description: Allows for one free mail ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+  name: cargo ship voucher
+  description: Allows for one free cargo ship purchase from the standard shipyard. Destroyed on sale.
   components:
   - type: Sprite
     layers:
     - state: blue
     - state: vouchermailcarrier
   - type: ShipyardVoucher
-    access:
-    - Mail
+    destroyOnEmpty: true
+    vessels:
+    - Argent
+    - Piva
+    - Hermes
+    - Tiger
+    - Notch
+    - Duran
 
 - type: entity
   parent: ShipVoucherFrontierJanitor

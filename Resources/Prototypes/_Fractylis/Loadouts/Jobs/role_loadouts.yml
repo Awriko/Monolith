@@ -30,3 +30,30 @@
   - ContractorBureaucracy
   - NFSpeciesSpecific
   - FactionArmorPlates # Mono
+
+# Trademaster
+- type: roleLoadout
+  id: JobTrademaster
+  groups:
+  - MailCarrierBackpack
+  - ContractorOuterClothing
+  - ContractorFace
+  - ContractorEars
+  - QuartermasterPDA
+  - ContractorShoes
+  - ContractorFace
+  - ContractorEars
+  - ContractorBelt
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - MailCarrierWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorUtility # Mono
+  - ContractorFun
+  - ContractorTrinkets
+  - ContractorBureaucracy
+  - NFSpeciesSpecific
+  - ContractorFirearm # Mono
+  - ContractorMag # Mono
+  - ContractorArmorPlates # Mono

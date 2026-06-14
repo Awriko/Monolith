@@ -5,7 +5,7 @@
   description: The mailing segment of the combined service ship, designed for speed above all. This one is designed and produced by The Pantheon Collective.
   price: 37500
   category: Small
-  group: Sr
+  group: Shipyard #Fractylis
   access: Mail
   shuttlePath: /Maps/_Mono/Shuttles/hermes.yml
   guidebookPage: Null

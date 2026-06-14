@@ -41,12 +41,18 @@
   equipment:
     head: ClothingHeadHatBeretQM
     eyes: ClothingEyesHudMail
+    neck: ClothingNeckMantleQM
+    jumpsuit: ClothingUniformJumpsuitQMFormal
+    gloves: ClothingHandsGlovesHeavyGoldenTrim
     id: QuartermasterPDA
-    belt: MailBag
   storage:
     back:
+    - BoxFolderQmClipboard
+    - RubberStampQm
     - EncryptionKeyService # Frontier
     - EncryptionKeyCargo
     - HandheldCrewMonitor # Frontier
     - ShipVoucherFrontierMailCarrier # Frontier
+    - ShipVoucherFrontierMailCarrier
     - MailMetricsCartridge # Frontier
+    - WeaponMailLake
