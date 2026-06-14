@@ -1,13 +1,37 @@
 # Mono edit.
 
 - type: loadoutGroup
+  id: StationRepHead
+  name: loadout-group-contractor-head
+  minLimit: 0
+  loadouts:
+  - StationRepClothingHeadHatSrCap
+  - StationRepClothingHeadHatSrBeret
+
+- type: loadoutGroup
   id: StationRepOuterClothing
   name: loadout-group-contractor-outerclothing
   minLimit: 0
   loadouts:
-  - StationRepClothingOuterHardsuitSecurityRed
-  subgroups:
-  - HeadofSecurityOuterClothing
+  - StationRepClothingOuterHardsuitCommand
+  - StationRepClothingOuterArmorSrCarapace
+  - StationRepClothingOuterJacketSr
+
+- type: loadoutGroup
+  id: StationRepNeck
+  name: loadout-group-contractor-neck
+  minLimit: 0
+  loadouts:
+  - StationRepClothingNeckCloakSr
+  - StationRepClothingNeckMantleSr
+
+- type: loadoutGroup
+  id: StationRepJumpsuit
+  name: loadout-group-contractor-jumpsuit
+  minLimit: 0
+  loadouts:
+  - StationRepClothingUniformJumpsuitSr
+  - StationRepClothingUniformJumpskirtSr
 
 - type: loadoutGroup
   id: StationRepBackpack
@@ -36,7 +60,7 @@
   name: loadout-group-contractor-gloves
   minLimit: 0
   loadouts:
-  - StationRepClothingHandsGlovesCombat # Mono
+  - StationRepClothingHandsGlovesSr # Fractylis
 
 - type: loadoutGroup
   id: StationRepPDA

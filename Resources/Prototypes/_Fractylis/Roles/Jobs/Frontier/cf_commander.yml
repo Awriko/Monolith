@@ -48,5 +48,10 @@
   storage:
     back:
     - Flash
+    - RubberStampHos
     - EncryptionKeyDiplomacy
+    - EncryptionKeySecurity
+    - EncryptionKeyService
     - ShipVoucherFrontierGuard
+    - ShipVoucherFrontierGuard
+    - UndeterminedVoidsuitHeadOfSecurity

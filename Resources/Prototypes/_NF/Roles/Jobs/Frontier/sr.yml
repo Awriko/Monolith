@@ -46,6 +46,7 @@
 - type: startingGear
   id: SrGear
   equipment:
+    eyes: ClothingEyesHudCommand
     pocket1: WeaponEnergyGunLawbringer
   storage:
     back:

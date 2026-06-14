@@ -217,22 +217,22 @@
 - type: roleLoadout
   id: JobStationRepresentative
   groups:
-#  - StationRepHead
-#  - StationRepNeck
-#  - StationRepJumpsuit
+  - StationRepHead
+  - StationRepNeck
+  - StationRepJumpsuit
   - StationRepGloves
   - StationRepBackpack
   - StationRepOuterClothing
 #  - ContractorShoes
 #  - ContractorFace
 #  - ContractorGlasses
-#  - ContractorBelt
-  - MonoSecurityGuardHud
+  - ContractorBelt
+# - MonoSecurityGuardHud
   - StationRepEars
   - MonoSecurityGuardShoes
-  - HeadofSecurityHead
-  - HeadofSecurityJumpsuit
-  - HeadofSecurityNeck
+#  - HeadofSecurityHead
+#  - HeadofSecurityJumpsuit
+#  - HeadofSecurityNeck
   - ColonialLiaisonFirearm # Mono
   - ContractorBoxSurvival
   - StationRepPDA
