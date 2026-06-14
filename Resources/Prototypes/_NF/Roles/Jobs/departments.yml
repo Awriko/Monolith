@@ -23,6 +23,8 @@
   - NFJanitor
   - MailCarrier # nyano
   - SecurityGuard
+  - FleetCommander # Fractylis
+  - Trademaster # Fractylis
 
 - type: department
   id: Antag

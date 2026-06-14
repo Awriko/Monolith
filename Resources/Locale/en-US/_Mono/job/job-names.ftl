@@ -9,7 +9,7 @@ job-supervisors-ussp-commissars = the Commissar
 job-supervisors-ussp-sergeant = the Serzhants
 
 # MARK: MD
-job-name-md-medic = Emergency Responder
+job-name-md-medic = Emergency Medical Tech
 
 # MARK: TSF
 job-name-tsf-engineer = TSFMC Engineer

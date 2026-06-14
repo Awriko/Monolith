@@ -1,0 +1,52 @@
+- type: job
+  id: Trademaster
+  name: job-name-trademaster
+  description: job-description-mail-carrier
+  playTimeTracker: JobTrademaster
+  setPreference: true # Fractylis
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  weight: 10
+  startingGear: TrademasterGear
+  alwaysUseSpawner: false
+  icon: "JobIconQuarterMaster"
+  supervisors: job-supervisors-sr
+  assignedCompany: Colonial
+  displayWeight: 40 # Second from the bottom
+  canBeAntag: false
+  access: # Frontier
+    - Cargo # Frontier
+    - Salvage # Frontier
+    - Quartermaster # Frontier
+    - Maintenance # Frontier
+    - External # Frontier
+  accessGroups: # Frontier
+    - GeneralAccess # Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+    #- type: NpcFactionMember - Commented out to seperate them from TSFMC.
+    #  factions:
+    #  - TSFMC
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: TrademasterGear
+  equipment:
+    head: ClothingHeadHatBeretQM
+    eyes: ClothingEyesHudMail
+    id: QuartermasterPDA
+    belt: MailBag
+  storage:
+    back:
+    - EncryptionKeyService # Frontier
+    - EncryptionKeyCargo
+    - HandheldCrewMonitor # Frontier
+    - ShipVoucherFrontierMailCarrier # Frontier
+    - MailMetricsCartridge # Frontier

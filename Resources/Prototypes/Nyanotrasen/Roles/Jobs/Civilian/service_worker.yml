@@ -3,6 +3,7 @@
   name: job-name-service-worker
   description: job-description-service-worker
   playTimeTracker: JobCCServiceWorker
+  setPreference: false # Fractylis
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800

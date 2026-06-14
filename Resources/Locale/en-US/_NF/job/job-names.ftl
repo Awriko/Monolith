@@ -2,7 +2,6 @@
 job-name-bailiff = TSFMC Captain
 job-name-brigmedic = TSFMC Corpsman
 job-name-cadet-nf = TSFMC Private
-job-name-contractor = Spacer
 job-name-deputy = TSFMC Marine
 job-name-nf-detective = Detective
 job-name-ertmailcarrier = ERT Mail Carrier
@@ -13,18 +12,21 @@ job-name-pirate = PDV Rahkshan
 job-name-pirate-captain = PDV Grand Vizier
 job-name-pirate-first-mate = PDV Asvaran
 job-name-pdv-denasvar = PDV Denasvar
-job-name-security-guard = Judge
 job-name-sheriff = TSFMC Colonel
 job-name-stc = Station Traffic Controller
 job-name-sr = Overseer
 job-name-pal = Public Affairs Liaison
-job-name-doc = Director of Care
+job-name-doc = Medical Officer
+job-name-mail-carrier = Logistician
+job-name-fleet-commander = Commander
 
 # Job titles
 job-title-ert-mail-carrier = ERT Mail Carrier
 
 # Role timers - Make these alphabetical or I cut you
 JobERTMailCarrier = ERT Mail Carrier
+JobFleetCommander = Commander
+JobMailCarrier = Logistician
 JobMercenary = Mercenary
 JobPilot = Pilot
 JobPDVInfiltrator = PDV Spasaka
@@ -32,8 +34,9 @@ JobPirate = PDV Rakhshan
 JobPirateCaptain = PDV Grand Vizier
 JobPirateFirstMate = PDV Asvaran
 JobPirateBoatswain = PDV Denasvar
-JobSecurityGuard = Judge
+JobSecurityGuard = Enforcer
 JobSTC = Station Traffic Controller
+JobTrademaster = Trademaster
 
 # Upstream Removed
 job-name-senior-engineer = Senior Engineer

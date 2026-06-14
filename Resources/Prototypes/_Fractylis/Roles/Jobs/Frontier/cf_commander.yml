@@ -1,0 +1,52 @@
+- type: job
+  id: FleetCommander
+  name: job-name-fleet-commander
+  description: job-description-security-guard
+  playTimeTracker: JobFleetCommander
+  setPreference: true
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 108000 # 30 hours
+    - !type:RoleTimeRequirement
+      role: JobSecurityGuard
+      time: 54000 # 15 hrs as security guard - mono
+  startingGear: FleetCommanderGear
+  alwaysUseSpawner: false
+  icon: "JobIconHeadOfSecurity"
+  supervisors: job-supervisors-sr
+  assignedCompany: Colonial
+  weight: 120
+  displayWeight: 50 # Second from the top
+  canBeAntag: false
+  access:
+    - HeadOfSecurity
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+    - External
+    - Mercenary
+    - Captain
+    - Frontier
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
+  - !type:AddComponentSpecial
+    components:
+    - type: CommandStaff
+    #- type: NpcFactionMember - Commented out to seperate them from TSFMC.
+    #  factions:
+    #  - TSFMC
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: FleetCommanderGear
+  equipment:
+    pocket1: WeaponEnergyGunLawbringer
+  storage:
+    back:
+    - Flash
+    - EncryptionKeyDiplomacy
+    - ShipVoucherFrontierGuard
