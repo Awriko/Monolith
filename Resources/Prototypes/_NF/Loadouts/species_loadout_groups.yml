@@ -1,9 +1,9 @@
 - type: loadoutGroup
   id: NFSpeciesSpecific # prefixed just for visual ID
   name: loadout-group-breath-tool # if visible, rename
-  minLimit: 3
+  minLimit: 0
   maxLimit: 3
-  hidden: true
+  hidden: false
   loadouts:
   - LoadoutTankHarness
   - LoadoutSpeciesBreathTool
@@ -16,9 +16,9 @@
 - type: loadoutGroup
   id: NfsdSpeciesSpecific
   name: loadout-group-breath-tool # if visible, rename
-  minLimit: 3
+  minLimit: 0
   maxLimit: 3
-  hidden: true
+  hidden: false
   loadouts:
   - LoadoutTankHarness
   - NfsdVoxClothingMaskGasNfsd

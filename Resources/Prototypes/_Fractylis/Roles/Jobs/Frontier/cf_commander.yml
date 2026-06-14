@@ -24,6 +24,8 @@
     - Brig
     - Maintenance
     - Service
+    - Cargo
+    - Mail
     - External
     - Mercenary
     - Captain
@@ -47,6 +49,7 @@
     pocket1: WeaponEnergyGunLawbringer
   storage:
     back:
+    - ClothingMaskGasSecurity
     - Flash
     - RubberStampHos
     - EncryptionKeyDiplomacy

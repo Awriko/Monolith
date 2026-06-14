@@ -36,6 +36,7 @@
     pocket1: WeaponEnergyGunLawbringer
   storage:
     back:
+    - ClothingMaskGasSecurity
     - EncryptionKeyService
     - EncryptionKeySecurity
     - ShipVoucherFrontierGuard

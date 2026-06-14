@@ -22,4 +22,4 @@
   - !type:GroupLoadoutEffect
     proto: EffectSpeciesVox
   equipment:
-    mask: ClothingMaskGasSecurity
+    mask: ClothingMaskDrakeIndustries
