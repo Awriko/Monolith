@@ -33,6 +33,7 @@
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - ContractorPDA
+  - ContractorSpecialty
   - ContractorWallet
   - ContractorCartridge
   - ContractorImplanter

@@ -1,0 +1,179 @@
+- type: loadout
+  id: ContractorSledgehammer
+  price: 0
+  storage:
+    back:
+    - Sledgehammer
+
+- type: loadout
+  id: ContractorTrackingDarts
+  price: 0
+  storage:
+    back:
+    - NFBoxDartsTracking
+
+- type: loadout
+  id: ContractorHolopickaxe
+  price: 0
+  storage:
+    back:
+    - NFEnergyPickaxe
+
+- type: loadout
+  id: ContractorSalvageRadar
+  price: 0
+  storage:
+    back:
+    - SalvageRadarFlatpack
+
+- type: loadout
+  id: ContractorHypoBrigmedic
+  price: 0
+  storage:
+    back:
+    - HypoBrigmedic
+
+- type: loadout
+  id: ContractorMedicalBag
+  price: 0
+  storage:
+    back:
+    - MedicalBag
+
+- type: loadout
+  id: ContractorCompactDefib
+  price: 0
+  storage:
+    back:
+    - DefibrillatorCompact
+
+- type: loadout
+  id: ContractorSurgeryBag
+  price: 0
+  storage:
+    back:
+    - ClothingBackpackDuffelSurgeryFilled
+
+- type: loadout
+  id: ContractorSyringeGun
+  price: 0
+  storage:
+    back:
+    - LauncherSyringe
+
+- type: loadout
+  id: ContractorNaniteGun
+  price: 0
+  storage:
+    back:
+    - NaniteApplicator
+
+- type: loadout
+  id: ContractorExperimentalWelder
+  price: 0
+  storage:
+    back:
+    - WelderExperimental
+
+- type: loadout
+  id: ContractorRPED
+  price: 0
+  storage:
+    back:
+    - RPED
+
+- type: loadout
+  id: ContractorFaxPack
+  price: 0
+  storage:
+    back:
+    - FaxMachineFlatpack
+
+- type: loadout
+  id: ContractorBartenderGear
+  price: 0
+  storage:
+    back:
+    - VendingMachineBoozeFlatpack
+
+- type: loadout
+  id: ContractorJanitorMop
+  price: 0
+  storage:
+    back:
+    - AdvMopItem
+
+- type: loadout
+  id: ContractorJanitorCart
+  price: 0
+  storage:
+    back:
+    - JanicartFlatpack
+
+- type: loadout
+  id: ContractorFoolGear
+  price: 0
+  storage:
+    back:
+    - ClownRecorder
+
+- type: loadout
+  id: ContractorNewsGear
+  price: 0
+  storage:
+    back:
+    - MassMediaFlatpack
+
+- type: loadout
+  id: ContractorChefGear
+  price: 0
+  storage:
+    back:
+    - KitchenElectricGrillFlatpack
+
+- type: loadout
+  id: ContractorChemGear
+  price: 0
+  storage:
+    back:
+    - ChemMasterFlatpack
+
+- type: loadout
+  id: ContractorChaplainGear
+  price: 0
+  storage:
+    back:
+    - Censer
+
+- type: loadout
+  id: ContractorAnomalyLocator
+  price: 0
+  storage:
+    back:
+    - AnomalyLocator
+
+- type: loadout
+  id: ContractorSpectralLocator
+  price: 0
+  storage:
+    back:
+    - SpectralLocator
+
+- type: loadout
+  id: ContractorPosiBrain
+  price: 0
+  storage:
+    back:
+    - PositronicBrain
+
+- type: loadout
+  id: ContractorForensicScanner
+  price: 0
+  storage:
+    back:
+    - ForensicScanner
+
+
+
+
+
