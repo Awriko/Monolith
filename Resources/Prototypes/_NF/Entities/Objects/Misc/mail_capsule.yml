@@ -4,11 +4,20 @@
   id: MailCapsulePrimed
   parent: BaseItem
   components:
+  - type: PointLight
+    color: "#FF0000"
   - type: ThrowingAngle
     angle: 180
   - type: EmbeddableProjectile
-    minimumSpeed: 1
-    removalTime: 0.1
+    minimumSpeed: 3
+    removalTime: 0.5
+    offset: -0.15,0.0
+    sound: /Audio/Machines/sonar-ping.ogg
+  - type: Storage
+    grid:
+    - 0,0,1,1
+    maxItemSize: Small
+    openOnActivate: false
   - type: Tag
     tags:
     - MailCapsule
@@ -17,82 +26,13 @@
     sprite: _NF/Objects/Misc/mail_capsule.rsi
     layers:
       - state: icon-empty
-  - type: ItemSlots
-    slots:
-      mail_slot:
-        insertVerbText: Put in Mail
-        ejectVerbText: Take out Mail
-        name: Mail
-        startingItem: null
-        whitelist:
-          tags:
-          - Book
-          - Document
-          - Mail
-          components:
-          - Mail
-          - Paper
-        insertOnInteract: true
-        priority: 3
-      food_slot:
-        insertVerbText: Put in Food
-        ejectVerbText: Take out Food
-        name: Food
-        startingItem: null
-        whitelist:
-          components:
-          - Food
-        insertOnInteract: true
-        priority: 2
-      cash_slot:
-        insertVerbText: Put in Cash
-        ejectVerbText: Take out Cash
-        name: Cash
-        startingItem: null
-        whitelist:
-          components:
-          - Currency
-        insertOnInteract: true
-        priority: 1
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        showEnts: False
-        occludes: True
-        ents: []
-      mail_slot: !type:ContainerSlot
-        showEnts: False
-        occludes: True
-        ent: null
-      food_slot: !type:ContainerSlot
-        showEnts: False
-        occludes: True
-        ent: null
-      cash_slot: !type:ContainerSlot
-        showEnts: False
-        occludes: True
-        ent: null
   - type: Appearance
   - type: ItemMapper
     mapLayers:
-      icon-food:
-        whitelist:
-          components:
-          - Food
-      icon-cash:
-        whitelist:
-          components:
-          - Currency
       icon-mail:
         whitelist:
-          tags:
-          - Book
-          - Document
-          - Mail
           components:
-          - Mail
-          - Paper
-          - HyperlinkBook
+          - Item
     sprite: _NF/Objects/Misc/mail_capsule.rsi
   - type: Dumpable
   - type: Damageable
@@ -119,16 +59,27 @@
     damage:
       types:
         Blunt: 9.5
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Machines/sonar-ping.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Machines/sonar-ping.ogg
+      params:
+        volume: 2
 
 - type: entity
   name: mail capsule box
-  parent: BoxCardboard
+  parent: BoxBase
   id: BoxMailCapsulePrimed
   description: A box of primed mail capsules.
   components:
   - type: Storage
     grid:
     - 0,0,4,3
+    maxItemSize: Normal
   - type: StorageFill
     contents:
       - id: MailCapsulePrimed

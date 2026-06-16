@@ -992,7 +992,7 @@
 - type: loadoutGroup
   id: ContractorSpecialty
   name: loadout-group-contractor-specialty
-  minLimit: 1
+  minLimit: 0
   maxLimit: 1
   loadouts:
   - ContractorSledgehammer

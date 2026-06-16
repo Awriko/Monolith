@@ -611,9 +611,9 @@
           - Write
   - type: CargoOrderConsole
     taxAccounts: # Frontier
-      Frontier: 0.25 # Frontier
-      Nfsd: 0.15 # Frontier
-      Medical: 0.1 # Mono
+      Frontier: 0.30 # Frontier
+      Nfsd: 0 # Fractylis
+      Medical: 0.20 # Mono
   - type: BankClient
   - type: ActivatableUI
     verbText: qm-clipboard-computer-verb-text
@@ -624,6 +624,11 @@
         type: CargoOrderConsoleBoundUserInterface
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
+#  - type: DeviceNetwork
+#  - type: DeviceLinkSource
+#    range: 200
+#    ports:
+#    - OrderSender
   - type: MeleeWeapon
     damage:
       types:
@@ -711,6 +716,7 @@
     tags:
     - Trash
     - Document
+    - Mail
   #- type: Appearance, hide stamp marks until we have some kind of displacement
   - type: Flammable
     fireSpread: true

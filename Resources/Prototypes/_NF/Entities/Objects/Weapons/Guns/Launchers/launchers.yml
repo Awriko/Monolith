@@ -38,8 +38,16 @@
     whitelist:
       tags:
         - MailCapsule
+  - type: PneumaticCannon
+    gasUsage: 0
+    throwItems: true
+    BaseProjectileSpeed: 35
   - type: StaticPrice
     price: 50
+  - type: CursorOffsetRequiresWield
+  - type: EyeCursorOffset
+    maxOffset: 1.5
+    pvsIncrease: 0.2
 
 - type: entity
   name: TSFMC grenade launcher
