@@ -307,10 +307,10 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
     {
         return new RadarModeButton(icon)
         {
-            MinWidth = 16f,
-            MaxWidth = 16f,
-            MinHeight = 16f,
-            MaxHeight = 16f,
+            MinWidth = 32f,
+            MaxWidth = 32f,
+            MinHeight = 32f,
+            MaxHeight = 32f,
             HorizontalExpand = false,
             VerticalExpand = false,
             ModulateSelfOverride = Color.White.WithAlpha(0.55f),

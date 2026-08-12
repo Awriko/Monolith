@@ -6,10 +6,8 @@
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
   - MonoSecurityGuardOuterClothing
-  - MonoSecurityGuardBelt
-  - MonoSecurityGuardGaiter
+  - MercenaryBelt
   - MonoSecurityGuardHud
-  - SecurityGuardClothingHeadsetSecurityCommon
   - MonoSecurityGuardShoes
   - MonoSecurityGuardBack
   - SecurityGuardFirearm
@@ -17,7 +15,7 @@
   - SecurityGuardAmmo
   # Mono End
   - SecurityGuardGloves
-#  - SecurityGuardEars
+  - SecurityGuardEars
   - NfsdBoxSurvival
   - SecurityGuardPDA
   - ContractorWallet
@@ -28,7 +26,7 @@
   - ContractorFun
   - ContractorTrinkets
   - ContractorBureaucracy
-  - NFSpeciesSpecific
+  - NfsdSpeciesSpecific
   - FactionArmorPlates # Mono
 
 # Trademaster
@@ -38,10 +36,8 @@
   - MailCarrierBackpack
   - ContractorOuterClothing
   - ContractorFace
-  - ContractorEars
   - QuartermasterPDA
   - ContractorShoes
-  - ContractorFace
   - ContractorEars
   - ContractorBelt
   - ContractorEncryptionKey

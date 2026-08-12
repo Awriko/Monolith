@@ -33,6 +33,7 @@
   - ContractorEncryptionKey
   - ContractorBoxSurvival
   - ContractorPDA
+  - ContractorSpecialty
   - ContractorWallet
   - ContractorCartridge
   - ContractorImplanter
@@ -243,7 +244,7 @@
  # - ContractorFun # Mono - no fun allowed
   - StationRepTrinkets
   - ContractorBureaucracy
-  - NFSpeciesSpecific
+  - NfsdSpeciesSpecific
   - ContractorArmorPlates # Mono
 
 - type: roleLoadout
@@ -252,7 +253,6 @@
   # Mono Start
   - MonoSecurityGuardOuterClothing
   - MonoSecurityGuardBelt
-  - MonoSecurityGuardGaiter
   - MonoSecurityGuardHud
   - MonoSecurityGuardShoes
   - MonoSecurityGuardJumpsuit
@@ -274,7 +274,7 @@
   - ContractorFun
   - ContractorTrinkets
   - ContractorBureaucracy
-  - NFSpeciesSpecific
+  - NfsdSpeciesSpecific
   - FactionArmorPlates # Mono
 
 - type: roleLoadout

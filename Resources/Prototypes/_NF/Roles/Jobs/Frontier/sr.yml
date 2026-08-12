@@ -50,6 +50,7 @@
     pocket1: WeaponEnergyGunLawbringer
   storage:
     back:
+    - ClothingMaskGasSecurity
     - Flash
     - RubberStampSr
     - DoorRemoteCommand

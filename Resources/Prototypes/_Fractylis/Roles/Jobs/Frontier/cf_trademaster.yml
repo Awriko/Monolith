@@ -18,6 +18,9 @@
   access: # Frontier
     - Cargo # Frontier
     - Salvage # Frontier
+    - Service
+    - Frontier
+    - Mail
     - Quartermaster # Frontier
     - Maintenance # Frontier
     - External # Frontier

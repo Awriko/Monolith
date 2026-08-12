@@ -882,7 +882,7 @@
   - ContractorBeachBall
   - ContractorCrayonBox
   #- ContractorSoapNT
-  # Frontier - try to mirror the upstream trinkets here, but only if they arent job role restricted in some weird way
+  # Frontier - try to mirror the upstream trinkets here, but only if they aren't job role restricted in some weird way
   - PlushieLizard
   - ClothingNeckLGBTPin
   - ClothingNeckAllyPin
@@ -988,3 +988,36 @@
   loadouts:
   - ContractorArmorPlateBlunt_Slash
   - ContractorArmorPlatePierce
+
+- type: loadoutGroup
+  id: ContractorSpecialty
+  name: loadout-group-contractor-specialty
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ContractorSledgehammer
+  - ContractorTrackingDarts
+  - ContractorHolopickaxe
+  - ContractorSalvageRadar
+  - ContractorHypoBrigmedic
+  - ContractorMedicalBag
+  - ContractorSyringeGun
+  - ContractorCompactDefib
+  - ContractorSurgeryBag
+  - ContractorNaniteGun
+  - ContractorExperimentalWelder
+  - ContractorRPED
+  - ContractorFaxPack
+  - ContractorBartenderGear
+  - ContractorJanitorMop
+  - ContractorJanitorCart
+  - ContractorFoolGear
+  - ContractorNewsGear
+  - ContractorChefGear
+  - ContractorChemGear
+  - ContractorChaplainGear
+  - ContractorAnomalyLocator
+  - ContractorSpectralLocator
+  - ContractorPosiBrain
+  - ContractorForensicScanner
+
